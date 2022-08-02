@@ -13,7 +13,7 @@ outputs:
 taxonomies:
   categories: categories
 params:
-  description: The Vietnamese Christian Hymnal
+  description: Tìm lời Thánh Ca 1000 bài
   favicon: img/icon/favicon.png
   images:
     - img/index.png
