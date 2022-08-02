@@ -1,7 +1,7 @@
 languageCode: vi-vn
 copyright: This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
-title: The Vietnamese Christian Hymnal
-description: The Vietnamese Christian Hymnal
+title: Tìm lời Thánh Ca 1000 bài
+description: Tìm lời Thánh Ca 1000 bài (HTTL Việt Nam)
 baseURL: https://hymnal.thien.dev/
 theme: hymn
 paginate: 40
