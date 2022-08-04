@@ -19,15 +19,6 @@ type Hymn struct {
 	SubCategory string `json:"cat_sub"`
 }
 
-var regexps = map[string]string{
-	"a": `a|á|à|ả|ã|ạ|ă|ắ|ằ|ẳ|ẵ|ặ|â|ấ|ầ|ẩ|ẫ|ậ`,
-	"e": `e|é|è|ẽ|ẻ|ẹ|ê|ế|ề|ễ|ể|ệ`,
-	"o": `o|ó|ò|õ|ỏ|ọ|ô|ố|ồ|ỗ|ổ|ộ|ơ|ớ|ờ|ỡ|ở|ợ`,
-	"u": `u|ú|ù|ũ|ủ|ụ|ư|ứ|ừ|ữ|ử|ự`,
-	"d": `đ`,
-	"-": `\s`,
-}
-
 func getFileName(songNumber int, songName string) string {
 	fileName := strconv.Itoa(songNumber)
 
